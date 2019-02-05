@@ -1,0 +1,161 @@
+
+
+.w-100 {
+	width: 200px; height:400px;
+}
+
+
+
+
+.rcorners2 {
+	position:relative;
+    border-radius: 15px 50px 30px;
+	border: none;
+	text-align: center;
+    background: none;
+    padding: 20px; 
+    width: 1000px;
+    height: 100px; 
+	margin-left: auto;
+    margin-right: auto;
+	font-size: 10%;
+	text-indent: -9999px;  
+	color: transparent;
+	background-image: url('plus3.png');
+	background-repeat: no-repeat;
+    background-position: center; 
+	background-size: 100px 100px;
+}
+
+.rcorners2:hover{
+	
+	cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	text-indent: 0px;
+	font-size: 100%;
+	width: 1000px;
+	height: 200px;
+	
+	font-size: 20px;
+	text-align: justify;
+    text-justify: inter-word;
+    overflow: auto;
+    color: black;
+	
+	background: #92686896;
+	background-image:none;
+}
+
+
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 60%, 60%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+.bg-dark {
+    background-color:#92686896!important;
+}
+
+
+.text{
+	text-shadow: 1px 1px 2px black, 0 0 25px #cceeff, 0 0 5px #ff4d4d;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 900;
+	text-decoration: underline;
+}
+
+.text2{
+	position: relative;
+	border-radius: 15px 50px 30px;
+	text-align: justify;
+	margin: auto;
+	background-color: transparent;
+    width: 800px;
+    border: 25px solid #92686896;
+    padding: 25px;
+	bottom: 40px;
+	
+	
+	
+}
+
+.text3{
+
+	margin: auto;
+
+	font-size: 30px;
+	font-weight: 800;
+	color: #000000a6;
+}
+
+body
+{
+	background-attachment: fixed;
+	background-position: center;
+	background-image: url("fondo.jpg");
+	background-repeat: no-repeat center center;
+	width: 100%;
+    height: 100%;
+
+  }
+
+html {
+	width: 100%;
+    height: 100%;
+}
+
+.pos{
+	top:40px;
+	height: 400px;
+	width: 400px;
+	position:relative;
+	left: 550px;
+}
+
+.card-body{
+	border: 2px solid #00000070;
+	height: 40px;
+}
+
+.card-img-top{
+	border: 2px solid #00000070;
+	
+}
+
+.next{
+	position: relative;
+	height: 50px;
+	width: 100px;
+	left:380px;
+	 margin-left: auto;
+    margin-right: auto;
+	top: 200px;
+	clear:both;
+}
+
+
+
+.fade-in {
+	display: inline-block;
+  -webkit-transition:opacity .5s ease-out;
+  -moz-transition:opacity .5s ease-out;
+  -ms-transition:opacity .5s ease-out;
+  -o-transition:opacity .5s ease-out;
+  transition:opacity .5s ease-out;
+  opacity:0.2;
+}
+
+.fade-in:hover {
+  opacity:1;
+}
